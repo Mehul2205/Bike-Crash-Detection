@@ -1,0 +1,22 @@
+{
+  "name": "Bethany",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this theme!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js -e js,hbs,css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "hbs": "^4.0.6",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
